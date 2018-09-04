@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.juliansantos.JASKeylogger.keylogger;
+package com.github.juliansantosinfo.jaskeylogger;
 
 import java.io.File;
-import br.com.juliansantos.JASKeylogger.email.Email;
+import com.github.juliansantosinfo.email.Email;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.commons.mail.EmailException;

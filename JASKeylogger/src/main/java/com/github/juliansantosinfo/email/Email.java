@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.juliansantos.JASKeylogger.email;
+package com.github.juliansantosinfo.email;
 
 import java.io.File;
 import java.util.ArrayList;

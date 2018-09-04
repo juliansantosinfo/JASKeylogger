@@ -1,5 +1,5 @@
 
-import br.com.juliansantos.JASKeylogger.keylogger.Keylogger;
+import com.github.juliansantosinfo.jaskeylogger.Keylogger;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

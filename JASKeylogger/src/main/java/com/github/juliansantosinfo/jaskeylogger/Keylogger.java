@@ -1,4 +1,4 @@
-package br.com.juliansantos.JASKeylogger.keylogger;
+package com.github.juliansantosinfo.jaskeylogger;
 
 import com.github.juliansantosinfo.jasdatehour.JASDateHour;
 import java.io.File;

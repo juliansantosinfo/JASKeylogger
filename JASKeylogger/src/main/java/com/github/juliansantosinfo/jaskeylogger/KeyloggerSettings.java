@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.juliansantos.JASKeylogger.keylogger;
+package com.github.juliansantosinfo.jaskeylogger;
 
 import java.io.File;
 import java.io.IOException;
