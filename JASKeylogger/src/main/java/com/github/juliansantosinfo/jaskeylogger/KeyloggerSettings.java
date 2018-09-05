@@ -13,7 +13,7 @@ import org.ini4j.IniPreferences;
 
 /**
  *
- * @author Julian
+ * @author Julian A. Santos
  */
 public class KeyloggerSettings {
 
@@ -57,7 +57,7 @@ public class KeyloggerSettings {
 
             // Set KEYLOGGER Section.
             ini.put("KEYLOGGER", "countKeys", 1);
-            ini.put("KEYLOGGER", "sizeSendMail", 10);
+            ini.put("KEYLOGGER", "sizeSendMail", 1024);
             ini.put("KEYLOGGER", "keyTranscription", false);
             ini.put("KEYLOGGER", "tabBreakLine", false);
             ini.put("KEYLOGGER", "enterBreakLine", true);

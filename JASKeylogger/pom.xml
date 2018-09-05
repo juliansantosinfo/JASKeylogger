@@ -163,10 +163,22 @@
             <version>0.5.4</version>
             <type>jar</type>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.juliansantosinfo/JASCopyFile -->
+        <dependency>
+            <groupId>com.github.juliansantosinfo</groupId>
+            <artifactId>JASCopyFile</artifactId>
+            <version>0.01</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/com.github.juliansantosinfo/JASDateHour -->
         <dependency>
             <groupId>com.github.juliansantosinfo</groupId>
             <artifactId>JASDateHour</artifactId>
+            <version>0.01</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.juliansantosinfo/JASSimpleEmail-->
+        <dependency>
+            <groupId>com.github.juliansantosinfo</groupId>
+            <artifactId>JASSimpleEmail</artifactId>
             <version>0.01</version>
         </dependency>
         

